@@ -1,0 +1,5 @@
+2022-12-25 21:07:33,284 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-25 21:07:36,032 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-25 21:46:48,768 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-25 21:46:49,051 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching chrome browser
+2022-12-25 21:46:50,972 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
