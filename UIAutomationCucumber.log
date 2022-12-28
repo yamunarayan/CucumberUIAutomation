@@ -1,5 +1,110 @@
-2022-12-25 21:07:33,284 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
-2022-12-25 21:07:36,032 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
-2022-12-25 21:46:48,768 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
-2022-12-25 21:46:49,051 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching chrome browser
-2022-12-25 21:46:50,972 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-28 01:03:44,083 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-28 01:03:45,251 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching chrome browser
+2022-12-28 01:03:53,352 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User logged in successfully
+2022-12-28 01:03:55,831 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User clicks on the directory option from the menu bar
+2022-12-28 01:03:56,272 [ERROR] com.lao.step_definitions.VerifyCEOName [main] org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "div"
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+2022-12-28 01:03:56,485 [INFO ] com.lao.step_definitions.VerifyCEOName [main] Clicks the search button
+2022-12-28 01:03:56,505 [INFO ] com.lao.step_definitions.VerifyCEOName [main] The user should see the CEO name as John Smith
+2022-12-28 01:03:56,516 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-28 01:03:57,477 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User clicks on the time option from menu
+2022-12-28 01:03:57,884 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User enters name as John Smith
+2022-12-28 01:03:57,919 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] Clicks on the view button
+2022-12-28 20:55:40,951 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-28 20:55:42,403 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching chrome browser
+2022-12-28 20:55:48,677 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User logged in successfully
+2022-12-28 20:55:51,527 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User clicks on the directory option from the menu bar
+2022-12-28 20:55:51,891 [ERROR] com.lao.step_definitions.VerifyCEOName [main] org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "div"
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+2022-12-28 20:55:52,064 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-28 20:55:53,201 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User clicks on the time option from menu
+2022-12-28 20:55:53,670 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User enters name as John Smith
+2022-12-28 20:55:53,712 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] Clicks on the view button
+2022-12-28 21:39:44,829 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-28 21:39:45,554 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching chrome browser
+2022-12-28 21:40:06,721 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User logged in successfully
+2022-12-28 21:40:09,180 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User clicks on the directory option from the menu bar
+2022-12-28 21:40:09,507 [ERROR] com.lao.step_definitions.VerifyCEOName [main] org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "div"
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+2022-12-28 21:40:09,756 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-28 21:40:10,815 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User clicks on the time option from menu
+2022-12-28 21:40:11,272 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User enters name as John Smith
+2022-12-28 21:40:11,323 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] Clicks on the view button
+2022-12-28 22:49:20,293 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-28 22:49:21,153 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching chrome browser
+2022-12-28 22:49:27,851 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User logged in successfully
+2022-12-28 22:49:30,085 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User clicks on the directory option from the menu bar
+2022-12-28 22:49:30,602 [ERROR] com.lao.step_definitions.VerifyCEOName [main] org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "div"
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+2022-12-28 22:49:30,843 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-28 22:49:31,840 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User clicks on the time option from menu
+2022-12-28 22:49:32,322 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User enters name as John Smith
+2022-12-28 22:49:32,355 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] Clicks on the view button
+2022-12-28 23:05:41,515 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-28 23:05:41,888 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching chrome browser
+2022-12-28 23:05:48,244 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User logged in successfully
+2022-12-28 23:05:50,894 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User clicks on the directory option from the menu bar
+2022-12-28 23:05:51,294 [ERROR] com.lao.step_definitions.VerifyCEOName [main] org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "div"
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+2022-12-28 23:05:51,456 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-28 23:05:52,541 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User clicks on the time option from menu
+2022-12-28 23:05:53,078 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User enters name as John Smith
+2022-12-28 23:05:53,113 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] Clicks on the view button
+2022-12-28 23:07:15,957 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-28 23:07:16,294 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching chrome browser
+2022-12-28 23:07:22,927 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User logged in successfully
+2022-12-28 23:07:25,306 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User clicks on the directory option from the menu bar
+2022-12-28 23:07:25,680 [ERROR] com.lao.step_definitions.VerifyCEOName [main] org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "div"
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+2022-12-28 23:07:25,837 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-28 23:07:27,080 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User clicks on the time option from menu
+2022-12-28 23:07:27,612 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User enters name as John Smith
+2022-12-28 23:07:27,653 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] Clicks on the view button
+2022-12-28 23:07:45,862 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-28 23:07:46,228 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching chrome browser
+2022-12-28 23:07:55,022 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User logged in successfully
+2022-12-28 23:07:57,551 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User clicks on the directory option from the menu bar
+2022-12-28 23:07:58,022 [ERROR] com.lao.step_definitions.VerifyCEOName [main] org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "div"
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+2022-12-28 23:07:58,283 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-28 23:07:59,339 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User clicks on the time option from menu
+2022-12-28 23:07:59,807 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User enters name as John Smith
+2022-12-28 23:07:59,840 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] Clicks on the view button
+2022-12-28 23:21:29,173 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-28 23:21:29,530 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching chrome browser
+2022-12-28 23:21:36,652 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User logged in successfully
+2022-12-28 23:21:39,050 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User clicks on the directory option from the menu bar
+2022-12-28 23:21:39,385 [ERROR] com.lao.step_definitions.VerifyCEOName [main] org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "div"
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+2022-12-28 23:21:39,547 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-28 23:21:40,623 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User clicks on the time option from menu
+2022-12-28 23:21:41,086 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User enters name as John Smith
+2022-12-28 23:21:41,119 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] Clicks on the view button
+2022-12-28 23:21:52,295 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-28 23:21:52,528 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching chrome browser
+2022-12-28 23:21:58,836 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User logged in successfully
+2022-12-28 23:22:01,754 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User clicks on the directory option from the menu bar
+2022-12-28 23:22:02,178 [ERROR] com.lao.step_definitions.VerifyCEOName [main] org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "div"
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+2022-12-28 23:22:02,488 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-28 23:22:03,692 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User clicks on the time option from menu
+2022-12-28 23:22:04,081 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User enters name as John Smith
+2022-12-28 23:22:04,134 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] Clicks on the view button
