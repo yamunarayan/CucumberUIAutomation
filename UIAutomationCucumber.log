@@ -1,110 +1,223 @@
-2022-12-28 01:03:44,083 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
-2022-12-28 01:03:45,251 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching chrome browser
-2022-12-28 01:03:53,352 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User logged in successfully
-2022-12-28 01:03:55,831 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User clicks on the directory option from the menu bar
-2022-12-28 01:03:56,272 [ERROR] com.lao.step_definitions.VerifyCEOName [main] org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "div"
+2022-12-29 13:27:05,333 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-29 13:27:06,295 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching chrome browser
+2022-12-29 13:30:08,526 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User logged in successfully
+2022-12-29 13:30:08,531 [ERROR] com.lao.step_definitions.VerifyCEOName [main] org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5d7620797c38d9bed3af0ad6dbbf3cd3, findElement {using=partial link text, value=Directory}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Yamuna\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59462}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59462/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5d7620797c38d9bed3af0ad6dbbf3cd3
+2022-12-29 13:30:08,551 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-29 13:31:38,532 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-29 13:31:38,900 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching chrome browser
+2022-12-29 13:31:47,474 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User logged in successfully
+2022-12-29 13:31:49,761 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User clicks on the directory option from the menu bar
+2022-12-29 13:31:50,115 [ERROR] com.lao.step_definitions.VerifyCEOName [main] org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "div"
 Build info: version: '4.7.2', revision: '4d4020c3b7'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
 Driver info: driver.version: unknown
-2022-12-28 01:03:56,485 [INFO ] com.lao.step_definitions.VerifyCEOName [main] Clicks the search button
-2022-12-28 01:03:56,505 [INFO ] com.lao.step_definitions.VerifyCEOName [main] The user should see the CEO name as John Smith
-2022-12-28 01:03:56,516 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
-2022-12-28 01:03:57,477 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User clicks on the time option from menu
-2022-12-28 01:03:57,884 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User enters name as John Smith
-2022-12-28 01:03:57,919 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] Clicks on the view button
-2022-12-28 20:55:40,951 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
-2022-12-28 20:55:42,403 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching chrome browser
-2022-12-28 20:55:48,677 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User logged in successfully
-2022-12-28 20:55:51,527 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User clicks on the directory option from the menu bar
-2022-12-28 20:55:51,891 [ERROR] com.lao.step_definitions.VerifyCEOName [main] org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "div"
+2022-12-29 13:31:50,297 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-29 13:31:51,275 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User clicks on the time option from menu
+2022-12-29 13:31:51,800 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User enters name as John Smith
+2022-12-29 13:31:51,834 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] Clicks on the view button
+2022-12-29 13:33:10,288 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-29 13:33:10,591 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching chrome browser
+2022-12-29 13:39:26,712 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User logged in successfully
+2022-12-29 13:42:26,717 [ERROR] com.lao.step_definitions.VerifyCEOName [main] org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7813ea55abafe01b646577474603ff95, findElement {using=partial link text, value=Directory}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Yamuna\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59724}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59724/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7813ea55abafe01b646577474603ff95
+2022-12-29 13:45:26,774 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-29 13:54:42,896 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-29 13:54:43,193 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching chrome browser
+2022-12-29 13:54:52,457 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User logged in successfully
+2022-12-29 13:54:55,452 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User clicks on the directory option from the menu bar
+2022-12-29 13:54:55,968 [ERROR] com.lao.step_definitions.VerifyCEOName [main] org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "div"
 Build info: version: '4.7.2', revision: '4d4020c3b7'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
 Driver info: driver.version: unknown
-2022-12-28 20:55:52,064 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
-2022-12-28 20:55:53,201 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User clicks on the time option from menu
-2022-12-28 20:55:53,670 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User enters name as John Smith
-2022-12-28 20:55:53,712 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] Clicks on the view button
-2022-12-28 21:39:44,829 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
-2022-12-28 21:39:45,554 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching chrome browser
-2022-12-28 21:40:06,721 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User logged in successfully
-2022-12-28 21:40:09,180 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User clicks on the directory option from the menu bar
-2022-12-28 21:40:09,507 [ERROR] com.lao.step_definitions.VerifyCEOName [main] org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "div"
+2022-12-29 13:54:56,135 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-29 13:54:57,437 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User clicks on the time option from menu
+2022-12-29 13:54:57,878 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User enters name as John Smith
+2022-12-29 13:54:57,909 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] Clicks on the view button
+2022-12-29 13:55:35,394 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-29 13:55:35,712 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching chrome browser
+2022-12-29 14:00:16,598 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-29 14:00:16,916 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching chrome browser
+2022-12-29 14:00:26,338 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User logged in successfully
+2022-12-29 14:00:26,350 [ERROR] com.lao.step_definitions.VerifyCEOName [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"partial link text","selector":"Directory"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [00794d10ec384ba595ee3603cc63b483, findElement {using=partial link text, value=Directory}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Yamuna\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60576}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60576/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 00794d10ec384ba595ee3603cc63b483
+2022-12-29 14:00:26,474 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-29 14:00:26,492 [ERROR] com.lao.step_definitions.VerifyPendingTS [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"partial link text","selector":"Time"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [00794d10ec384ba595ee3603cc63b483, findElement {using=partial link text, value=Time}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Yamuna\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60576}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60576/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 00794d10ec384ba595ee3603cc63b483
+2022-12-29 14:04:54,615 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-29 14:04:54,899 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching chrome browser
+2022-12-29 14:05:17,287 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User logged in successfully
+2022-12-29 14:05:17,320 [ERROR] com.lao.step_definitions.VerifyCEOName [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"partial link text","selector":"Directory"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [700a8893d137b2b145f32e960a4db638, findElement {using=partial link text, value=Directory}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Yamuna\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60699}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60699/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 700a8893d137b2b145f32e960a4db638
+2022-12-29 14:05:17,598 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-29 14:05:17,631 [ERROR] com.lao.step_definitions.VerifyPendingTS [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"partial link text","selector":"Time"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [700a8893d137b2b145f32e960a4db638, findElement {using=partial link text, value=Time}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Yamuna\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60699}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60699/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 700a8893d137b2b145f32e960a4db638
+2022-12-29 14:22:52,547 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-29 14:22:52,879 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching chrome browser
+2022-12-29 14:23:01,540 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User logged in successfully
+2022-12-29 14:23:01,564 [ERROR] com.lao.step_definitions.VerifyCEOName [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"partial link text","selector":"Directory"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9654c5d1a1a891b48202af49215d7d20, findElement {using=partial link text, value=Directory}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Yamuna\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61099}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61099/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9654c5d1a1a891b48202af49215d7d20
+2022-12-29 14:23:01,766 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-29 14:23:01,796 [ERROR] com.lao.step_definitions.VerifyPendingTS [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"partial link text","selector":"Time"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9654c5d1a1a891b48202af49215d7d20, findElement {using=partial link text, value=Time}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Yamuna\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61099}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61099/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9654c5d1a1a891b48202af49215d7d20
+2022-12-29 14:23:50,953 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-29 14:23:51,270 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching chrome browser
+2022-12-29 14:23:59,860 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User logged in successfully
+2022-12-29 14:23:59,885 [ERROR] com.lao.step_definitions.VerifyCEOName [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"partial link text","selector":"Directory"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [17a31766467a66cd32d98b140c6d125d, findElement {using=partial link text, value=Directory}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Yamuna\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61194}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61194/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 17a31766467a66cd32d98b140c6d125d
+2022-12-29 14:24:00,054 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-29 14:24:00,084 [ERROR] com.lao.step_definitions.VerifyPendingTS [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"partial link text","selector":"Time"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [17a31766467a66cd32d98b140c6d125d, findElement {using=partial link text, value=Time}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Yamuna\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61194}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61194/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 17a31766467a66cd32d98b140c6d125d
+2022-12-29 14:25:27,796 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-29 14:25:28,065 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching chrome browser
+2022-12-29 14:25:35,547 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User logged in successfully
+2022-12-29 14:25:37,735 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User clicks on the directory option from the menu bar
+2022-12-29 14:25:38,132 [ERROR] com.lao.step_definitions.VerifyCEOName [main] org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "div"
 Build info: version: '4.7.2', revision: '4d4020c3b7'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
 Driver info: driver.version: unknown
-2022-12-28 21:40:09,756 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
-2022-12-28 21:40:10,815 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User clicks on the time option from menu
-2022-12-28 21:40:11,272 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User enters name as John Smith
-2022-12-28 21:40:11,323 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] Clicks on the view button
-2022-12-28 22:49:20,293 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
-2022-12-28 22:49:21,153 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching chrome browser
-2022-12-28 22:49:27,851 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User logged in successfully
-2022-12-28 22:49:30,085 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User clicks on the directory option from the menu bar
-2022-12-28 22:49:30,602 [ERROR] com.lao.step_definitions.VerifyCEOName [main] org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "div"
+2022-12-29 14:25:38,311 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-29 14:25:39,375 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User clicks on the time option from menu
+2022-12-29 14:25:39,919 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User enters name as John Smith
+2022-12-29 14:25:39,953 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] Clicks on the view button
+2022-12-29 17:14:09,443 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-29 17:14:10,245 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching chrome browser
+2022-12-29 17:14:19,996 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User logged in successfully
+2022-12-29 17:14:22,466 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User clicks on the directory option from the menu bar
+2022-12-29 17:14:25,753 [ERROR] com.lao.step_definitions.VerifyCEOName [main] org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "div"
 Build info: version: '4.7.2', revision: '4d4020c3b7'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
 Driver info: driver.version: unknown
-2022-12-28 22:49:30,843 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
-2022-12-28 22:49:31,840 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User clicks on the time option from menu
-2022-12-28 22:49:32,322 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User enters name as John Smith
-2022-12-28 22:49:32,355 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] Clicks on the view button
-2022-12-28 23:05:41,515 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
-2022-12-28 23:05:41,888 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching chrome browser
-2022-12-28 23:05:48,244 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User logged in successfully
-2022-12-28 23:05:50,894 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User clicks on the directory option from the menu bar
-2022-12-28 23:05:51,294 [ERROR] com.lao.step_definitions.VerifyCEOName [main] org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "div"
+2022-12-29 17:14:25,915 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-29 17:14:26,703 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User clicks on the time option from menu
+2022-12-29 17:14:27,100 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User enters name as John Smith
+2022-12-29 17:14:27,133 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] Clicks on the view button
+2022-12-29 17:48:41,174 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-29 17:48:41,480 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching chrome browser
+2022-12-29 17:48:48,919 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User logged in successfully
+2022-12-29 17:48:51,240 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User clicks on the directory option from the menu bar
+2022-12-29 17:48:51,591 [ERROR] com.lao.step_definitions.VerifyCEOName [main] org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "div"
 Build info: version: '4.7.2', revision: '4d4020c3b7'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
 Driver info: driver.version: unknown
-2022-12-28 23:05:51,456 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
-2022-12-28 23:05:52,541 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User clicks on the time option from menu
-2022-12-28 23:05:53,078 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User enters name as John Smith
-2022-12-28 23:05:53,113 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] Clicks on the view button
-2022-12-28 23:07:15,957 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
-2022-12-28 23:07:16,294 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching chrome browser
-2022-12-28 23:07:22,927 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User logged in successfully
-2022-12-28 23:07:25,306 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User clicks on the directory option from the menu bar
-2022-12-28 23:07:25,680 [ERROR] com.lao.step_definitions.VerifyCEOName [main] org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "div"
+2022-12-29 17:48:51,911 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-29 17:48:52,957 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User clicks on the time option from menu
+2022-12-29 17:48:53,398 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User enters name as John Smith
+2022-12-29 17:48:53,441 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] Clicks on the view button
+2022-12-29 17:54:31,416 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-29 17:54:31,718 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching chrome browser
+2022-12-29 17:55:21,633 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User logged in successfully
+2022-12-29 17:55:21,649 [ERROR] com.lao.step_definitions.VerifyCEOName [main] org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b45ff8b819fd6bdfb6effdfb706df72d, findElement {using=partial link text, value=Directory}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Yamuna\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65296}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65296/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b45ff8b819fd6bdfb6effdfb706df72d
+2022-12-29 17:55:21,783 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-29 17:56:25,472 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-29 17:56:25,707 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching chrome browser
+2022-12-29 17:56:42,894 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User logged in successfully
+2022-12-29 17:56:45,291 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User clicks on the directory option from the menu bar
+2022-12-29 17:56:45,843 [ERROR] com.lao.step_definitions.VerifyCEOName [main] org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "div"
 Build info: version: '4.7.2', revision: '4d4020c3b7'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
 Driver info: driver.version: unknown
-2022-12-28 23:07:25,837 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
-2022-12-28 23:07:27,080 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User clicks on the time option from menu
-2022-12-28 23:07:27,612 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User enters name as John Smith
-2022-12-28 23:07:27,653 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] Clicks on the view button
-2022-12-28 23:07:45,862 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
-2022-12-28 23:07:46,228 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching chrome browser
-2022-12-28 23:07:55,022 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User logged in successfully
-2022-12-28 23:07:57,551 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User clicks on the directory option from the menu bar
-2022-12-28 23:07:58,022 [ERROR] com.lao.step_definitions.VerifyCEOName [main] org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "div"
+2022-12-29 17:56:46,165 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-29 17:56:47,354 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User clicks on the time option from menu
+2022-12-29 17:56:48,043 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User enters name as John Smith
+2022-12-29 17:56:48,073 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] Clicks on the view button
+2022-12-29 17:58:50,517 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-29 17:58:50,787 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching chrome browser
+2022-12-29 17:59:12,180 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User logged in successfully
+2022-12-29 17:59:15,934 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User clicks on the directory option from the menu bar
+2022-12-29 17:59:16,427 [ERROR] com.lao.step_definitions.VerifyCEOName [main] org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "div"
 Build info: version: '4.7.2', revision: '4d4020c3b7'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
 Driver info: driver.version: unknown
-2022-12-28 23:07:58,283 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
-2022-12-28 23:07:59,339 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User clicks on the time option from menu
-2022-12-28 23:07:59,807 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User enters name as John Smith
-2022-12-28 23:07:59,840 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] Clicks on the view button
-2022-12-28 23:21:29,173 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
-2022-12-28 23:21:29,530 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching chrome browser
-2022-12-28 23:21:36,652 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User logged in successfully
-2022-12-28 23:21:39,050 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User clicks on the directory option from the menu bar
-2022-12-28 23:21:39,385 [ERROR] com.lao.step_definitions.VerifyCEOName [main] org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "div"
+2022-12-29 17:59:16,878 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-29 17:59:18,028 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User clicks on the time option from menu
+2022-12-29 17:59:18,480 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User enters name as John Smith
+2022-12-29 17:59:18,556 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] Clicks on the view button
+2022-12-29 18:02:13,128 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-29 18:02:13,400 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching chrome browser
+2022-12-29 18:02:27,227 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User logged in successfully
+2022-12-29 18:02:29,604 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User clicks on the directory option from the menu bar
+2022-12-29 18:02:30,190 [ERROR] com.lao.step_definitions.VerifyCEOName [main] org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "div"
 Build info: version: '4.7.2', revision: '4d4020c3b7'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
 Driver info: driver.version: unknown
-2022-12-28 23:21:39,547 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
-2022-12-28 23:21:40,623 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User clicks on the time option from menu
-2022-12-28 23:21:41,086 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User enters name as John Smith
-2022-12-28 23:21:41,119 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] Clicks on the view button
-2022-12-28 23:21:52,295 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
-2022-12-28 23:21:52,528 [INFO ] com.lao.webdriver_manager.DriverManager [main] Launching chrome browser
-2022-12-28 23:21:58,836 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User logged in successfully
-2022-12-28 23:22:01,754 [INFO ] com.lao.step_definitions.VerifyCEOName [main] User clicks on the directory option from the menu bar
-2022-12-28 23:22:02,178 [ERROR] com.lao.step_definitions.VerifyCEOName [main] org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "div"
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
-Driver info: driver.version: unknown
-2022-12-28 23:22:02,488 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
-2022-12-28 23:22:03,692 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User clicks on the time option from menu
-2022-12-28 23:22:04,081 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User enters name as John Smith
-2022-12-28 23:22:04,134 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] Clicks on the view button
+2022-12-29 18:02:30,480 [INFO ] com.lao.step_definitions.Common_Step_Definition [main] Checking driver is null or not
+2022-12-29 18:02:31,596 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User clicks on the time option from menu
+2022-12-29 18:02:32,067 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] User enters name as John Smith
+2022-12-29 18:02:32,103 [INFO ] com.lao.step_definitions.VerifyPendingTS [main] Clicks on the view button

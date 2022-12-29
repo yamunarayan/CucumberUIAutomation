@@ -23,7 +23,7 @@ public class VerifyPendingTS {
 
         }catch(Exception e){
             LOGGER.error(e);
-            CommonUtils.getInstance().takeScreenshot();
+            //CommonUtils.getInstance().takeScreenshot();
             Assert.fail(e.getMessage());
         }
        String url = DriverManager.getDriver().getCurrentUrl();
@@ -39,7 +39,7 @@ public class VerifyPendingTS {
             LOGGER.info("User clicks on the time option from menu");
         }catch(Exception e){
             LOGGER.error(e);
-            CommonUtils.getInstance().takeScreenshot();
+            //CommonUtils.getInstance().takeScreenshot();
             Assert.fail(e.getMessage());
         }
            }
@@ -50,7 +50,7 @@ public class VerifyPendingTS {
             LOGGER.info("User enters name as John Smith");
         }catch(Exception e){
             LOGGER.error(e);
-            CommonUtils.getInstance().takeScreenshot();
+            //CommonUtils.getInstance().takeScreenshot();
             Assert.fail(e.getMessage());
         }
 
@@ -62,7 +62,7 @@ public class VerifyPendingTS {
             LOGGER.info("Clicks on the view button");
         }catch(Exception e){
             LOGGER.error(e);
-            CommonUtils.getInstance().takeScreenshot();
+            //CommonUtils.getInstance().takeScreenshot();
             Assert.fail(e.getMessage());
         }
 
@@ -75,7 +75,7 @@ public class VerifyPendingTS {
             LOGGER.info("User should see the message as John Smith");
         }catch(Exception e){
             LOGGER.error(e);
-            CommonUtils.getInstance().takeScreenshot();
+           // CommonUtils.getInstance().takeScreenshot();
             Assert.fail(e.getMessage());
         }
 
