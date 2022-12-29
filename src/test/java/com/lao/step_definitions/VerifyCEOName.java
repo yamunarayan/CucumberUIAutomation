@@ -26,7 +26,7 @@ public class VerifyCEOName {
             LOGGER.info("User logged in successfully");
         }catch(Exception e){
             LOGGER.error(e);
-            CommonUtils.getInstance().takeScreenshot();
+           // CommonUtils.getInstance().takeScreenshot();
             Assert.fail(e.getMessage());
         }
     }
@@ -37,7 +37,7 @@ public class VerifyCEOName {
             LOGGER.info("User clicks on the directory option from the menu bar");
         }catch(Exception e){
             LOGGER.error(e);
-            CommonUtils.getInstance().takeScreenshot();
+            //CommonUtils.getInstance().takeScreenshot();
             Assert.fail(e.getMessage());
         }
 
@@ -49,7 +49,7 @@ public class VerifyCEOName {
             LOGGER.info("The user selects the job title as {string} from the dropdown");
         }catch(Exception e){
             LOGGER.error(e);
-            CommonUtils.getInstance().takeScreenshot();
+            //CommonUtils.getInstance().takeScreenshot();
             Assert.fail(e.getMessage());
         }
              }
@@ -60,7 +60,7 @@ public class VerifyCEOName {
             LOGGER.info("Clicks the search button");
         }catch(Exception e){
             LOGGER.error(e);
-            CommonUtils.getInstance().takeScreenshot();
+            //CommonUtils.getInstance().takeScreenshot();
             Assert.fail(e.getMessage());
         }
 
@@ -73,7 +73,7 @@ public class VerifyCEOName {
             LOGGER.info("The user should see the CEO name as John Smith");
         }catch(Exception e){
             LOGGER.error(e);
-            CommonUtils.getInstance().takeScreenshot();
+            //CommonUtils.getInstance().takeScreenshot();
             Assert.fail(e.getMessage());
         }
 

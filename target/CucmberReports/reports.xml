@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="19.372">
+    <testcase classname="This feature is to get the CEO name from OrangeHRM app" name="This test is to verify the CEO name" time="17.366">
+        <failure message="Element should have been &quot;select&quot; but was &quot;div&quot;&#10;Build info: version: '4.7.2', revision: '4d4020c3b7'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'&#10;Driver info: driver.version: unknown" type="java.lang.AssertionError">
+            <![CDATA[Given User logged in successfully...........................................passed
+When User clicks on the directory option from the menu bar..................passed
+And The user selects the job title as "Chief Executive Officer" from the dropdown "text".failed
+And Clicks the search button................................................skipped
+Then The user should see the CEO name as "John Smith".......................skipped
+
+StackTrace:
+java.lang.AssertionError: Element should have been "select" but was "div"
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+	at org.testng.Assert.fail(Assert.java:110)
+	at com.lao.step_definitions.VerifyCEOName.the_user_selects_the_job_title_as_from_the_dropdown(VerifyCEOName.java:53)
+	at ✽.The user selects the job title as "Chief Executive Officer" from the dropdown "text"(classpath:features/Verify_CEO_Name.feature:7)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="This feature is to get pending timesheet" name="This is to verify the pending timesheet" time="1.806">
+        <failure message="expected [No Timesheets Found] but found [Timesheets Pending Action]" type="java.lang.AssertionError">
+            <![CDATA[Given User is on the home page..............................................passed
+And User clicks on the time option from menu................................passed
+And User enters name as "John Smith"........................................passed
+And Clicks on the view button...............................................passed
+Then User should see the message as "No Timesheets Found"...................failed
+
+StackTrace:
+java.lang.AssertionError: expected [No Timesheets Found] but found [Timesheets Pending Action]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.lao.step_definitions.VerifyPendingTS.user_should_see_the_message_as(VerifyPendingTS.java:74)
+	at ✽.User should see the message as "No Timesheets Found"(classpath:features/verify_Pending_TS.feature:8)
+]]>
+        </failure>
+    </testcase>
+</testsuite>
